@@ -165,7 +165,7 @@ async function commit(params) {
     {
       path: path.normalize(questionPath),
       mode: "100644",
-      content: questionData,
+      content: `${questionData}\n`,
     },
     {
       path: path.normalize(solutionPath),
